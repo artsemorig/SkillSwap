@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог навыков | SkillSwap</title>
+    <link rel="stylesheet" href="навыки.css">
+    <link rel="stylesheet" href="навыки.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="главная.html" class="logo">SkillSwap</a>
+            <nav class="nav">
+                <a href="профиль.html" class="nav-link">Профиль</a>
+                <a href="#" id="logout" class="nav-link">Выйти</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1>Найдите нужный навык</h1>
+        
+        <!-- Фильтры -->
+        <div class="filters">
+            <input type="text" id="searchInput" placeholder="Поиск...">
+            <select id="categoryFilter">
+                <option value="all">Все категории</option>
+                <option value="programming">Программирование</option>
+                <option value="design">Дизайн</option>
+                <option value="languages">Языки</option>
+            </select>
+        </div>
+
+        <!-- Сетка карточек -->
+        <div class="skills-grid" id="skillsGrid">
+            <!-- Карточки будут здесь -->
+        </div>
+    </main>
+
+    <script src="sait.js"></script>
+</body>
+</html>
